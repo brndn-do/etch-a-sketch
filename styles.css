@@ -1,0 +1,21 @@
+#container {
+    width: 720px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    border: 5px black solid;
+}
+
+.row {
+    flex-grow: 1;
+    display: flex;
+}
+
+.square {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.colored {
+    background-color: black;
+}
